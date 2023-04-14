@@ -18,3 +18,11 @@
     display: block;
 
 }
+
+.cabecalho nav{
+    display: flex; /*A nav se torna tbm um flex container*/
+    justify-content: space-around;
+    width: 60%;
+    height: 100%;
+
+}
