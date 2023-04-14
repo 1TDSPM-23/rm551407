@@ -1,0 +1,20 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;  /*aciona os flex itens*/
+    justify-content: space-between; /*espaço entre os itens*/
+    flex-wrap: wrap; /*quebra de texto conforme o formato*/
+    align-items: center;
+    background-color: #a18585;
+}
+
+.cabecalho img{
+    width: 30%;
+    max-width: 30%;
+    display: block;
+
+}
