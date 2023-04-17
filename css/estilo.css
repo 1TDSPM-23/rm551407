@@ -4,12 +4,16 @@
  box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .cabecalho{
     display: flex;  /*aciona os flex itens*/
     justify-content: space-between; /*espaço entre os itens*/
     flex-wrap: wrap; /*quebra de texto conforme o formato*/
     align-items: center;
-    background-color: #a18585;
+    background-color: #000000;
 }
 
 .cabecalho img{
@@ -36,6 +40,33 @@
     padding: 10% 0;
 }
 cabecalho a:hover{
-    background-color:black ;
-    color: #fff
+    background-color:#fff ;
+    color: #000000
+}
+
+.tit-sec{
+    text-align: center;
+    font-size: 5rem;
+    margin: 5% 0;
+
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw; /*view port whidt*/ /*vw= view width vh= view height*/ 
+    margin: 0 auto;
+    
+}
+
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+.conteudo > div{
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;*/
+    flex: 1 1 300px;
 }
