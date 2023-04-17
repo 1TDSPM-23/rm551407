@@ -1,5 +1,7 @@
 /* =====================================================*/
 @import url('./cabecalho.css');
+@import url('./conteudo.css');
+@import url('./etilo-627x.css');
 /*====================================================== */
 
 * {
@@ -18,23 +20,5 @@ html{
     margin: 5% 0;
 
 }
-
-.conteudo{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 50vw; /*view port whidt*/ /*vw= view width vh= view height*/ 
-    margin: 0 auto;
-    
-}
-
-.conteudo img{
-    max-width: 100%;
-    display: block;
-}
-
-.conteudo > div{
-    /*flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px;*/
-    flex: 1 1 300px;
-}
+/* vw = view width
+vh = view height  */
