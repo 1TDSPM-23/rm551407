@@ -2,6 +2,7 @@
 @import url('./cabecalho.css');
 @import url('./conteudo.css');
 @import url('./etilo-627x.css');
+@import url('./rodape.css');S
 /*====================================================== */
 
 * {
@@ -20,5 +21,3 @@ html{
     margin: 5% 0;
 
 }
-/* vw = view width
-vh = view height  */
