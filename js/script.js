@@ -64,3 +64,41 @@
         //         let nome = "Robson"
         // }
         // console.log
+
+        //ARRAY e seus metodos
+        let frutas = ["banana","Maça","morango","carambola", "acerola","laranja"];
+        console.log(frutas);
+        console.table(frutas);
+        console.log(frutas[3])
+
+        ///adicionar um item ao final do array com o metodo push(item);
+        frutas.push("melão");
+        console.log(frutas);
+
+        ///adicionar um item ao começo do array com o metodo unshift(item);
+        frutas.unshift("caju");
+        console.log(frutas);
+
+        ///remover um item ao começo do array com o metodo shift(item);
+        frutas.shift();
+        console.log(frutas);
+
+        ///remover um item ao final do array com o metodo pop(item);
+        frutas.pop();
+        console.log(frutas);
+        
+        //Para localizar um item dentro do array, utilixando indexof(itenNome);
+        // let indice = frutas.indexOf("morango");
+        // console.log(frutas[indice])
+
+        //Para localizar um item dentro do array e apagar ele, utilixando splice(indice do item, quantidade de vezes que o indice sera removido;
+        let indice2 = frutas.indexOf("carambola");
+        frutas.splice(indice2,1);
+        console.log(frutas)
+
+
+
+        frutas.forEach( (fruta)=>{
+                console.log (`Olha ele : ${fruta}`)
+        } );
+
