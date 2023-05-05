@@ -1,0 +1,43 @@
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw; /*view port whidt*/ /*vw= view width vh= view height*/ 
+    margin: 0 auto;
+    
+}
+
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+.conteudo > div{
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;*/
+    flex: 1 1 300px;
+}
+table{
+    border-collapse: collapse;
+    margin:  5% auto;
+}
+th,td{
+    border: 2px solid #dddddd;
+    padding: 8px
+
+}
+
+ tr:nth-child(even){ /*TR São as linhas da tabela */
+    background-color: #ccc;
+}
+tr:nth-child(odd){
+    background-color: rgb(133, 117, 117);
+}
+ tr:nth-child(1){ /*edita o css numa linha especifica (nesse caso a 1) */
+    background-color: rgb(14, 11, 11);
+    color: #fff;
+}
+
+tr:hover{
+    background-color: #131212af;
+}
